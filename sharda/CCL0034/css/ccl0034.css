@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background: rgb(145, 131, 131);
+  width: 100%;
+}
+.content {
+  width: 100%;
+}
+.main-container {
+  max-width: 540px;
+  margin: 0 auto;
+  background: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+.logo {
+  height: 295px;
+  background: #000;
+}
+.logo-image {
+   padding-top: 90px;
+}
+.logo-image h1 {
+  color:  #fff;
+  font-size: 26px;
+  font-weight: 500;
+}
+.clip {
+  position: relative;
+}
+#left-clip {
+  /* width: 0;
+  height: 0;
+  border-top: 40px solid transparent;
+  border-right: 160px solid  rgb(80, 177, 117);
+  border-bottom: 40px solid transparent;
+  position: absolute;
+  transform: rotate(180deg);
+  bottom: -41px; */
+  display: block;
+  height: 88px;
+  width: 29%;
+  background: rgb(80, 177, 117);
+  border: 1px solid rgb(80, 177, 117);
+  position: relative;
+  left: calc(1% - 10px);
+  clip-path: polygon(0% 0%,100% 50%,0% 100%);
+  /* clip-path: polygon(0% 0%,100% 27%,0% 100%); */
+  transform: rotate(360deg);
+  bottom: -45px;
+
+}
+#inner-left-clip {
+  /* width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-right: 80px solid  rgb(46, 122, 75);
+  border-bottom: 20px solid transparent;
+  position: absolute;
+  top: -40px;
+  left: 80px;
+  transform: translateY(20px); */
+  display: block;
+  height: 40px;
+  width: 55%;
+  background: rgb(46, 122, 75);
+  border: 1px solid rgb(46, 122, 75);
+  position: absolute;
+  left: calc(9% - 10px);
+  clip-path: polygon(0% 0%,100% 50%,0% 100%);
+  /* clip-path: polygon(0% 0%,100% 27%,0% 100%); */
+  transform: rotate(0deg);
+  bottom: 22px;
+}
+#right-clip {
+  /* width: 0;
+  height: 0;
+  border-top: 40px solid transparent;
+  border-right: 160px solid  rgb(80, 177, 117);
+  border-bottom: 40px solid transparent;
+  position: absolute;
+  left: 70.5%;
+  bottom: -129px; */
+  display: block;
+  height: 88px;
+  width: 29%;
+  background: rgb(80, 177, 117);
+  border: 1px solid rgb(80, 177, 117);
+  position: relative;
+  left: calc(74% - 10px);
+  clip-path: polygon(0% 0%,100% 50%,0% 100%);
+  /* clip-path: polygon(0% 0%,100% 27%,0% 100%); */
+  transform: rotate(180deg);
+  bottom: 43px;
+}
+
+#inner-right-clip {
+  /* width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-right: 80px solid  rgb(46, 122, 75);
+  border-bottom: 20px solid transparent;
+  position: absolute;
+  top: -40px;
+  left: 80px;
+  transform: translateY(20px); */
+  display: block;
+  height: 40px;
+  width: 55%;
+  background: rgb(46, 122, 75);
+  border: 1px solid rgb(46, 122, 75);
+  position: absolute;
+  left: calc(10% - 10px);
+  clip-path: polygon(0% 0%,100% 50%,0% 100%);
+  /* clip-path: polygon(0% 0%,100% 27%,0% 100%); */
+  transform: rotate(0deg);
+  bottom: 22px;
+}
+
+/* card info */
+.card-structure {
+  background-color: rgb(240, 235, 235);
+  width: 93%;
+  margin: 0 auto;
+}
+.card-info {
+  padding: 70px 0;
+}
+.developer-name {
+  padding-bottom: 30px;
+}
+.developer-name h2 {
+ font-size: 25px;
+ color: rgb(80, 177, 117);
+}
+.developer-name span {
+  color: #333;
+  font-weight: 400;
+}
+.developer-name p {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+.border-line {
+  position: relative;
+}
+.border-line::after {
+  content: '';
+  position: absolute;
+  background-color: rgb(80, 177, 117);
+  width: 70px;
+  height: 2px;
+  top: 25px;
+  /* bottom: -7px; */
+  left: 44%;
+}
+.social-info {
+  list-style-type: none;
+  /* padding: 0 65px; */
+}
+.social-info li {
+  display: flex;
+  margin: 35px 0;
+  justify-content: space-around;
+}
+.logo-box {
+  background:#000;
+  text-align: right;
+  border-radius: 50%;
+  /* width: 40px; */
+  /* text-align: center; */
+}
+.logo-box a {
+  text-decoration: none;
+ 
+}
+.logo-box a i {
+  color: rgb(49, 192, 104);
+  padding: 10px 12px;
+}
+.location {
+  padding: 10px 2px;
+}
+.info-box {
+  text-align: justify;
+}
+.bottom-border-clip {
+  /* width: 0;
+  height: 0;
+  border-left: 275px solid transparent;
+  border-right: 275px solid transparent;
+  border-bottom: 30px solid rgb(80, 177, 117);
+  position: relative;
+  bottom: -70px;
+  right: 25px; */
+
+  display: block;
+  height: 50px;
+  width: 100%;
+  background: rgb(80, 177, 117);
+  border: 1px solid rgb(80, 177, 117);
+  position: relative;
+  left: calc(2% - 10px);
+  clip-path: polygon(50% 0%,100% 50%,0% 100%);
+  /* clip-path: polygon(0% 0%,100% 27%,0% 100%); */
+  transform: rotate(4deg);
+  bottom: -53px;
+
+}
+.inner-bottom-border-clip {
+  /* width: 0;
+  height: 0;
+  border-left: 200px solid transparent;
+  border-right: 200px solid transparent;
+  border-bottom: 20px solid rgb(46, 122, 75);
+  position: relative;
+  bottom: -10px;
+  right: 196px; */
+}
+
+
+
