@@ -1,0 +1,90 @@
+/*https://befonts.com/stella-font.html*/
+
+
+/*https://www.ffonts.net/RodinBokutohPro-B.font.download*/
+
+@font-face {
+  font-family: customfonts;
+  src: url(/fonts/Nintendo\ Font\ \(Bold\).otf);
+}
+
+@font-face {
+  font-family: numberfonts;
+  src: url(/fonts/Semikolon\ Classic\ W03\ Bold.ttf);
+}
+
+
+/* ------------------------------------ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(145, 131, 131);
+  width: 100%;
+  font-family: customfonts;
+}
+
+.content {
+  width: 100%;
+}
+
+.main-container {
+  max-width: 540px;
+  margin: 0 auto;
+  background: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+.top {
+  background: url('/sharda/CCL0005/image/back.png') no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+.overlay {
+  background: #000;
+  opacity: 0.5;
+  height: 100%;
+  width: 100%;
+}
+.social-link {
+  width: 40px;
+  height: 40px;
+  background: #191919;
+  border-radius: 50%;
+  color: rgb(80, 177, 117);
+  text-align: center;
+  line-height: 40px;
+  margin-bottom: 10px;
+}
+
+.social-link img {
+  height: 30px;
+  /* <<<<<<< HEAD */
+  margin-top: 6px;
+  /* ======= */
+  margin-top: 7px;
+  /* >>>>>>> 25de1e4c3b4a333a3922c0ef035d94d13a07aaee */
+  margin-bottom: 4px;
+}
+.social-info {
+  list-style-type: none;
+  /* padding: 0 65px; */
+  width: 40%;
+  margin: 0 auto;
+}
+.social-info li {
+  display: flex;
+  margin: 35px 0;
+  justify-content: space-around;
+}
+.border-line {
+  height: 20px;
+  width: 100%;
+  background: rgb(236, 199, 34);
+}
+
