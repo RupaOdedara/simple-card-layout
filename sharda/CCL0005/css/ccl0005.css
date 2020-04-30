@@ -3,17 +3,6 @@
 
 /*https://www.ffonts.net/RodinBokutohPro-B.font.download*/
 
-@font-face {
-  font-family: customfonts;
-  src: url(/fonts/Nintendo\ Font\ \(Bold\).otf);
-}
-
-@font-face {
-  font-family: numberfonts;
-  src: url(/fonts/Semikolon\ Classic\ W03\ Bold.ttf);
-}
-
-
 /* ------------------------------------ */
 
 * {
@@ -25,7 +14,7 @@
 body {
   background: rgb(226, 223, 223);
   width: 100%;
-  font-family: customfonts;
+  font-family: 'Lexend Giga', sans-serif;
 }
 
 .content {
@@ -43,6 +32,7 @@ body {
   background-size: cover;
   height: 300px;
   width: 100%;
+  position: relative;
 }
 .overlay {
   background: #000;
@@ -53,18 +43,22 @@ body {
   /* position: relative; */
 }
 .logo {
-  padding-top: 60px;
+  position: absolute;
+  top: 70px;
+  /* left: 38%; */
+  text-align: center;
+  width: 100%;
 }
 .logo-image {
- width: 60%;
+ width: 65%;
  margin: 0 auto;
- padding: 20px 0;
+ padding: 20px 50px;
  position: relative;
  text-align: center;
 }
 .logo-image img {
-  height: 120px;
-  width: 120px;
+  height: 125px;
+  width: 125px;
   border-radius: 100px;
   border: 4px solid rgb(238, 204, 54);
   
@@ -74,6 +68,7 @@ body {
  width: 22px;
  border: 3px solid rgb(238, 204, 54);
  position: absolute;
+ list-style-type: none;
 }
 #clips li:nth-child(1) {
   left: 0;
@@ -112,6 +107,7 @@ border-bottom: none;
   font-size: 25px;
   margin-bottom: 5px;
   position: relative;
+  font-family: 'Lexend Giga', sans-serif;
 }
 .developer-name h1::before {
   content: '';
@@ -133,7 +129,7 @@ border-bottom: none;
 }
 .developer-name p {
   color: #fff;
-  font-weight: 400;
+  font-weight: lighter;
   font-size: 14px;
 }
 /* social box */
@@ -152,6 +148,7 @@ border-bottom: none;
   text-align: center;
   line-height: 40px;
   margin-bottom: 10px;
+  margin-right: 20px;
 }
 
 .social-link img {
@@ -166,13 +163,19 @@ border-bottom: none;
 .social-info {
   list-style-type: none;
   padding: 35px 0 20px;
-  width: 65%;
+  width: 90%;
   margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 0px;
+  
 }
 .social-info li {
   display: flex;
   padding: 10px 0;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+.info-box {
+  width: 80%;
 }
 .border-line {
   width: 100%;
