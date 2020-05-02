@@ -96,12 +96,12 @@ border-bottom: none;
 }
 /* developer name box */
 
-.developer-name {
+.company-details {
   background: #222;
   padding: 20px 0;
   text-align: center;
 }
-.developer-name h1 {
+.company-details h1 {
   color:  rgb(238, 204, 54);
   font-weight: 600;
   font-size: 25px;
@@ -109,7 +109,7 @@ border-bottom: none;
   position: relative;
   font-family: 'Lexend Giga', sans-serif;
 }
-.developer-name h1::before {
+.company-details h1::before {
   content: '';
   position: absolute;
   background-color: rgb(238, 204, 54);
@@ -118,7 +118,7 @@ border-bottom: none;
   top: 25px;
   right: 6%;
 }
-.developer-name h1::after {
+.company-details h1::after {
   content: '';
   position: absolute;
   background-color: rgb(238, 204, 54);
@@ -127,14 +127,14 @@ border-bottom: none;
   top: 25px;
   left: 6%;
 }
-.developer-name p {
+.company-details p {
   color: #fff;
   font-weight: lighter;
   font-size: 14px;
 }
 /* social box */
 
-.background {
+.complany-social-info {
   background-color: rgb(240, 235, 235);
   width: 90%;
   margin: 0 auto;
