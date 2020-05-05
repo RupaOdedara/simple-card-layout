@@ -14,27 +14,87 @@ body {
 .main-container {
   max-width: 540px;
   margin: 0 auto;
-  background: rgb(233, 168, 78);
+  background-image: linear-gradient(to right,#d0a149,#dfb458,#f0c96a,#e3b85a,#e3b85a,#e3b85a,#e3b85a,#cfa048,#c29039,#bc8832,#b07926,#b17a27);
+  overflow: hidden;
+  border-radius: 35px;
 }
 .card-design {
   box-shadow: 0px 9px 26px 5px #333;
 }
+.line-design {
+  position: relative;
+  
+}
+.line-box {
+  width: 750px;
+  list-style-type: none;
+    transform: rotate(-44deg) translateX(-148px) translateY(-140px);
+}
+.line-box li:nth-child(1) {
+  height: 20px;
+  background-image: linear-gradient(to left, #d0a149,#dfb458,#f0c96a,#e3b85a,#e3b85a,#e3b85a,#e3b85a,#cfa048,#c29039,#bc8832,#b07926,#b17a27);
+  width: 100%;
+}
+.line-box li:nth-child(2) {
+  height: 95px;
+  background-image: linear-gradient(to left,#333,#333,#000, #111,#222 ,#333,#333,#333);
+  width: 100%;
+}
+.line-box li:nth-child(3) {
+  height: 30px;
+  background-image: linear-gradient(to left,#d0a149,#b07926,#f0c96a,#e3b85a,#e3b85a,#e3b85a,#b07926,#b07926,#dfb458,#dfb458,#b07926,#d0a149);
+  width: 100%;
+}
+.line-box li:nth-child(4) {
+  height: 15px;
+  background-image: linear-gradient(to left,#b17a27,#b07926,#bc8832,#c29039,#cfa048,#e3b85a,#e3b85a,#e3b85a,#e3b85a,#b17a27,#dfb458,#d0a149);
+  width: 100%;
+}
+.line-box li:nth-child(5) {
+  height: 13px;
+  background-image: linear-gradient(to left,#333,#333,#000, #111,#222 ,#333,#333,#333);
+  width: 100%;
+}
+.line-box li:nth-child(6) {
+  height: 44px;
+  background-image: linear-gradient(to left,#d0a149,#b07926,#b07926,#cfa048,#e3b85a,#e3b85a,#e3b85a,#cfa048,#c29039,#bc8832,#b07926,#b17a27);
+  width: 100%;
+}
+.line-box li:nth-child(7) {
+  height: 40px;
+  background-image: linear-gradient(to left,#b17a27,#b07926,#bc8832,#c29039,#cfa048,#e3b85a,#e3b85a,#e3b85a,#bc8832,#bc8832,#dfb458,#d0a149);
+  width: 100%;
+}
+/* company information */
 .person-info {
   text-align: right;
-  padding: 40px 45px 45px 0px;
+  padding: 40px 45px 70px 0px;
+  position: relative;
+}
+.person-info h1 {
+  font-size: 30px;
+  font-weight: 700;
+  position: absolute;
+  right: 12%;
+  top: 0;
 }
 .bottom-line {
-  position: relative;
+  /* position: relative; */
+  font-weight: 600;
+  font-size: 17px;
+  position: absolute;
+  top: 42px;
+  right: 12%;
 }
 .bottom-line::after {
   content: '';
   position: absolute;
   background-color: #000;
-  width: 140px;
+  width: 150px;
   height: 2px;
-  top: 32px;
+  top: 35px;
   /* bottom: -7px; */
-  right: 2px;
+  right: 1%;
 }
 .person-info-wrap{
   width: 100%;
@@ -74,7 +134,7 @@ body {
   position: absolute;
   top: 50%;
   right: 5%;
-  font-size: 14px;
+  font-size: 15px;
   transform: translate(0,-50%);
   color: #000;
   text-decoration: none;

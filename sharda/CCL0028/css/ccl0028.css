@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: lightgrey;
+  width: 100%;
+  /* font-family: 'Lexend Giga', sans-serif; */
+}
+.content {
+  width: 100%;
+}
+.main-container {
+  max-width: 540px;
+  margin: 0 auto;
+  background: #fff;
+  overflow: hidden;
+  /* background: rgb(42, 179, 233); */
+}
+.company-logo-design {
+  background: rgb(42, 179, 233);
+  height: 382px;
+}
+.company-logo-design h1 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  font-style: normal;
+}
+.company-logo-design p {
+  font-size: 14px;
+  font-weight: lighter;
+  font-style: normal;
+  color: rgb(241, 246, 250);
+}
+.skewed-line {
+  position: relative;
+  transform: rotate(14deg) translateY(-150px) translateX(-41px);
+  
+}
+.card-design {
+  width: 100%;
+  /* background: rgb(42, 179, 233); */
+}
+.data {
+  position: absolute;
+  text-align: center;
+  top: 49%;
+  left: 37%;
+  transform: rotate(-14deg);
+}
+.data img {
+  width: 65px;
+}
+.data h1 {
+  margin: 7px 0 3px;
+}
+.company-details {
+  margin-top: -45px;
+}
+.company-logo-design::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -16px;
+  bottom: -27px;
+  background:  rgb(27, 126, 192);
+  transform: skew(6deg, 5deg);
+  z-index: -1;
+}
+.company-logo-design::after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -9px;
+  bottom: -12px;
+  background:  #fff;
+  transform: skew(2deg, 2deg);
+  z-index: -1;
+}
+.company-details {
+  /* padding: 120px 0 0px; */
+}
+.contact-info {
+  display: flex;
+  flex-direction: row;
+}
+.left-rect1 {
+  height: 50px;
+  width: 45px;
+  background: rgb(51, 163, 238);
+}
+.right-rect2 {
+  height: 50px;
+  width: 17px;
+  background: rgb(21, 109, 167);
+  margin: 0 13px 0 20px;
+}
+.person-info h2 {
+  font-weight: 600;
+  /* margin-bottom: 5px; */
+  line-height: 17px;
+}
+.person-info span {
+  color: rgb(68, 171, 240);
+}
+.person-info h3 {
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 52px;
+}
+/*  */
+.person-info-wrap{
+  width: 100%;
+}
+.person-contact-info-wrap{
+  width: 100%;
+  padding: 35px 0 15px;
+}
+.person-contact-info{
+  padding: 10px 30px 10px 0;
+}
+.wrap{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.icon{
+  width: 30px;
+  height: 30px;
+  position: relative;
+  border: 2px solid #000;
+  border-radius: 50%;
+}
+.phone .icon, .address .icon , .facebook .icon ,.linkedin .icon {
+  border: 2px solid rgb(68, 171, 240);
+}
+.icon img{
+  width: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.person-detail{
+  width: 90%;
+  position: relative;
+}
+.person-detail a{
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  font-size: 15px;
+  transform: translate(0,-50%);
+  color: #000;
+  text-decoration: none;
+  font-weight: 700; 
+  font-size: 17px;
+}
+
+.phone .person-detail a:nth-child(1){
+  top: 30%;
+}
+.phone .person-detail a:nth-child(2){
+  top: 85%;
+}
+
