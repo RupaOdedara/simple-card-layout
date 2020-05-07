@@ -1,3 +1,16 @@
+
+@font-face{font-family: bigsky;
+src: url(/sharda/CCL0028/Fonts/bigsky.ttf);}
+
+@font-face{font-family: Raleway-ExtraBold;
+src: url(/sharda/CCL0028/Fonts/Raleway-ExtraBold.ttf);}
+
+@font-face{font-family: MavenPro-Regular;
+src: url(/sharda/CCL0028/Fonts/MavenPro-Regular.ttf);}
+
+@font-face{font-family: OPTICraw-Clarendon;
+src: url(/sharda/CCL0028/Fonts/OPTICraw-Clarendon.otf);}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +20,7 @@ body {
   background: lightgrey;
   width: 100%;
   /* font-family: 'Lexend Giga', sans-serif; */
+  /* font-family: OPTICraw-Clarendon; */
 }
 .content {
   width: 100%;
@@ -27,12 +41,14 @@ body {
   font-size: 30px;
   font-weight: 700;
   font-style: normal;
+  font-family: Raleway-ExtraBold;
 }
 .company-logo-design p {
   font-size: 14px;
   font-weight: lighter;
   font-style: normal;
   color: rgb(241, 246, 250);
+  font-family: MavenPro-Regular;
 }
 .skewed-line {
   position: relative;
@@ -47,7 +63,7 @@ body {
   position: absolute;
   text-align: center;
   top: 49%;
-  left: 37%;
+  left: 31%;
   transform: rotate(-14deg);
 }
 .data img {
@@ -81,9 +97,6 @@ body {
   transform: skew(2deg, 2deg);
   z-index: -1;
 }
-.company-details {
-  /* padding: 120px 0 0px; */
-}
 .contact-info {
   display: flex;
   flex-direction: row;
@@ -103,6 +116,7 @@ body {
   font-weight: 600;
   /* margin-bottom: 5px; */
   line-height: 17px;
+  font-family: MavenPro-Regular;
 }
 .person-info span {
   color: rgb(68, 171, 240);
@@ -112,6 +126,8 @@ body {
   font-weight: 400;
   font-style: normal;
   line-height: 52px;
+  color: rgb(83, 80, 80);
+  font-family: MavenPro-Regular;
 }
 /*  */
 .person-info-wrap{
@@ -158,10 +174,11 @@ body {
   right: 5%;
   font-size: 15px;
   transform: translate(0,-50%);
-  color: #000;
+  color: rgb(83, 80, 80);
   text-decoration: none;
-  font-weight: 700; 
+  font-weight: 300; 
   font-size: 17px;
+  font-family: 'Hind Siliguri', sans-serif;  
 }
 
 .phone .person-detail a:nth-child(1){
@@ -169,5 +186,11 @@ body {
 }
 .phone .person-detail a:nth-child(2){
   top: 85%;
+}
+.address .person-detail a:nth-child(1){
+  top: 65%;
+  left: 21%;
+  right: 0%
+  
 }
 
