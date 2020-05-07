@@ -42,19 +42,85 @@ body {
 }
 .striped-lines {
   list-style-type: none;
-  /* position: relative; */
-  padding: 30px 0;
-  transform: rotate(90deg);
+  position: relative;
+  padding: 120px 0;
+  /* transform: rotate(90deg); */
 }
-.striped-lines li {
+
+.silver-line-1 {
+  background: rgb(228, 225, 225);
+  height: 3px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: -39%;
+  transform: rotate(76deg);
+}
+.silver-line-2 {
+  background: rgb(228, 225, 225);
+  height: 3px;
+  width: 50%;
+  position: absolute;
+  top: -53px;
+  right: -4%;
+  transform: rotate(62deg);
+}
+.silver-line-3 {
+  background: rgb(228, 225, 225);
+  height: 3px;
+  width: 450px;
+  position: absolute;
+  top: 33px;
+  left: -31%;
+  transform: rotate(130deg);
+}
+.silver-line-4 {
+  background: rgb(228, 225, 225);
+  height: 3px;
+  width: 480px;
+  position: absolute;
+  top: 84%;
+  left: -45%;
+  transform: rotate(108deg);
+}
+
+.golden-line-1 {
+  height: 5px;
+  width: 620px;
+  position: absolute;
+  top: 0;
+  right: -56%;
+  transform: rotate(71deg);
+  background-image: linear-gradient(to right,#d0a149,#dfb458,#f0c96a,#e3b85a,#e3b85a,#e3b85a,#e3b85a,#cfa048,#c29039,#bc8832,#b07926,#b17a27); 
+}
+.golden-line-2 {
+  height: 5px;
+  width: 90%;
+  position: absolute;
+  top: 0;
+  right: -4%;
+  transform: rotate(53deg);
+  background-image: linear-gradient(to right,#d0a149,#dfb458,#f0c96a,#e3b85a,#e3b85a,#e3b85a,#e3b85a,#cfa048,#c29039,#bc8832,#b07926,#b17a27); 
+}
+.golden-line-3 {
+  height: 5px;
+  width: 100%;
+  background-image: linear-gradient(to right,#d0a149,#dfb458,#f0c96a,#e3b85a,#e3b85a,#e3b85a,#e3b85a,#cfa048,#c29039,#bc8832,#b07926,#b17a27); 
+}
+.golden-line-4 {
+  height: 5px;
+  width: 100%;
+  background-image: linear-gradient(to right,#d0a149,#dfb458,#f0c96a,#e3b85a,#e3b85a,#e3b85a,#e3b85a,#cfa048,#c29039,#bc8832,#b07926,#b17a27); 
+}
+/* .striped-lines li {
  margin: 10px 0;
-}
+} */
 .striped-lines li:nth-child(1) {
   background: rgb(228, 225, 225);
   height: 2px;
-  /* position: absolute; */
-  /* top: 0; */
-  transform: rotate(76deg) translateY(-144px) translateX(21px);
+  position: absolute;
+  top: 0;
+  transform: rotate(76deg);
 }
 .striped-lines li:nth-child(2) {
   background: rgb(228, 225, 225);
