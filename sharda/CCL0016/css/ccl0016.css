@@ -81,11 +81,11 @@ body {
   position: absolute;
   top: 84%;
   left: -45%;
-  transform: rotate(108deg);
+  transform: rotate(111deg);
 }
 
 .golden-line-1 {
-  height: 5px;
+  height: 7px;
   width: 620px;
   position: absolute;
   top: 0;
@@ -94,22 +94,32 @@ body {
   background-image: linear-gradient(to right,#d0a149,#dfb458,#f0c96a,#e3b85a,#e3b85a,#e3b85a,#e3b85a,#cfa048,#c29039,#bc8832,#b07926,#b17a27); 
 }
 .golden-line-2 {
-  height: 5px;
-  width: 90%;
+  height: 7px;
+  width: 80%;
   position: absolute;
-  top: 0;
-  right: -4%;
+  top: -20px;
+  right: 2%;
   transform: rotate(53deg);
   background-image: linear-gradient(to right,#d0a149,#dfb458,#f0c96a,#e3b85a,#e3b85a,#e3b85a,#e3b85a,#cfa048,#c29039,#bc8832,#b07926,#b17a27); 
 }
 .golden-line-3 {
-  height: 5px;
-  width: 100%;
+  height: 7px;
+  /* width: 100%; */
+  width: 550px;
+  position: absolute;
+  top: 54px;
+  left: -34%;
+  transform: rotate(125deg);
   background-image: linear-gradient(to right,#d0a149,#dfb458,#f0c96a,#e3b85a,#e3b85a,#e3b85a,#e3b85a,#cfa048,#c29039,#bc8832,#b07926,#b17a27); 
 }
 .golden-line-4 {
-  height: 5px;
-  width: 100%;
+  height: 7px;
+  /* width: 100%; */
+  width: 515px;
+  position: absolute;
+  bottom: -51px;
+  left: -45%;
+  transform: rotate(106deg);
   background-image: linear-gradient(to right,#d0a149,#dfb458,#f0c96a,#e3b85a,#e3b85a,#e3b85a,#e3b85a,#cfa048,#c29039,#bc8832,#b07926,#b17a27); 
 }
 /* .striped-lines li {
