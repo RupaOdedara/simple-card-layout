@@ -1,0 +1,273 @@
+@font-face{font-family: Poppins-Regular;
+  src: url(/sharda/CCL0024/font/Poppins-Regular.ttf);}
+            
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  a{
+    text-decoration: none;
+  }
+  img{
+    max-width: 100%;
+  }
+  body{
+    font-size: 16px;
+    font-family: 'Lexend Giga', sans-serif;
+  }
+  .main-content {
+    width: 100%;
+  }
+  .main-container{
+    max-width: 540px;
+    margin: 0 auto;
+    background: #242c5b;
+    overflow: hidden;
+  }
+
+  /* line view */
+  .lines-view {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+  }
+  .lines-view .line-1 {
+    height: 70px;
+    width: 2px;
+    background: linear-gradient(to bottom,  rgb(255, 0, 43) 0%, #242c5b 80%);
+    border-radius: 10px;
+    position: absolute;
+    top: 50px;
+    left: 7%;
+  }
+  .lines-view .line-2 {
+    height: 200px;
+    width: 3px;
+    background: linear-gradient(to bottom,  rgb(255, 0, 43) 0%, #242c5b 80%);
+    border-radius: 10px;
+    position: absolute;
+    top: 75px;
+    left: 10%;  
+  }
+  .lines-view .line-3 {
+    height: 200px;
+    width: 3px;
+    background: linear-gradient(to bottom,  rgb(255, 0, 43) 0%, #242c5b 80%);
+    border-radius: 10px;
+    position: absolute;
+    top: 30px;
+    right: 10%;
+  }
+ 
+  /* logo desing view */
+  .logo {
+    height: 40px;
+    width: 40px;
+    margin: 0 auto;
+    border: 5px solid#fff;
+  }
+  .logo-tagline-space {
+    color: #fff;
+    text-align: center;
+    padding-top: 80px;
+    font-family: Poppins-Regular;
+   }
+  .logo-tagline-space h1 {
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .logo-tagline-space p {
+    font-size: 14px;
+    font-size: 400;
+    font-family: Poppins-Regular;
+    color: #858ea7;
+  }
+  .person-details {
+    /* text-align: center; */
+    height: 100%;
+    padding: 50px 0;
+    width: 205px;
+    margin: 0 auto;
+    color: #fff;
+    position: relative;
+  }
+  .person-details img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto 40px;
+    text-align: center;
+  }
+  .person-details h2 {
+    font-family: Poppins-Regular;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: -10px;
+  }
+  .person-details p {
+    font-size: 21px;
+    margin-top: 14px;
+    font-weight: 400;
+    font-family: Poppins-Regular;
+    color: #858ea7;
+  }
+
+  /* contact info */
+  .person-social-info{
+    width: 100%;
+  }
+  .contact{
+    width: 280px;
+    margin: 0 auto;
+    padding: 0px 10px 60px 10px;
+  }
+  
+  .link{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .icon{
+    width: 20%;
+    position: relative;
+    display: inline-block;
+  }
+  .icon img{
+    width: 20px;
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .social-info {
+    width: 80%;
+    font-family: Poppins-Regular;
+    color:  #fff8dc;
+    font-weight: 400;
+    word-break: break-all;
+    font-size: 14px;
+  }
+  .social-info a , .location {
+    font-family: Poppins-Regular;
+    color: #858ea7;
+    font-weight: 400;
+    display: inline-block;
+    font-size: 14px;
+  }
+  
+  /* circle shape view */
+  .clip-design-view {
+    display: flex;
+    flex-direction: row;
+  }
+.clip-design-view {
+  width: 100%;
+  height: 140px;
+}
+.left-circle {
+  width: 70%;
+  position: relative;
+}
+  .right-circle {
+    width: 30%;
+    position: relative;
+  }
+  .position {
+    width: 100%;
+  }
+  .semi {
+    height: 50px;
+    width: 25px;
+    background: #8c3142;
+    border-bottom-right-radius: 90px;
+   border-top-right-radius: 90px;
+   position: absolute;
+   right: 30%;
+   top: 0;
+  }
+  .quarter {
+    width: 25px;
+    height: 25px;
+    background: rgb(255, 0, 43);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 0;
+    position: absolute;
+    /* right: 100%; */
+    left: -25px;
+    top: 25px;
+  }
+  .circle-1 {
+    height: 280px;
+    /* width: 100%; */
+    width: 280px;
+    position: absolute;
+    left: -20px;
+    border-radius: 100%;
+    background: linear-gradient(to right, rgb(255, 0, 43), #242c5b);
+  }
+  .circle-2 {
+  height: 240px;
+  width: 240px;
+  margin: auto;
+  position: absolute;
+  top: 7%;
+  left: 7%;
+  background: #242c5b;
+  border-radius: 100%;
+  }
+  .circle-3 {
+    height: 200px;
+    /* width: 100%; */
+    width: 200px;
+    position: absolute;
+    top: 9%;
+    left: 9%;
+    border-radius: 100%;
+    background: linear-gradient(to right, rgb(255, 0, 43), #242c5b);
+  }
+  .circle-4 {
+    height: 160px;
+    width: 160px;
+    margin: auto;
+    position: absolute;
+    top: 10%;
+    left: 9%;
+    background: #242c5b;
+    border-radius: 100%;
+  }
+  .circle-5 {
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    top: 12%;
+    left: 13%;
+    border-radius: 100px;
+    background: linear-gradient(to right, rgb(255, 0, 43), #242c5b);
+  }
+
+  .circle-6 {
+    height: 80px;
+    width: 80px;
+    margin: auto;
+    position: absolute;
+    top: 16%;
+    left: 17%;
+    background: #242c5b;
+    border-radius: 100px;
+  }
+  .circle-7 {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 24%;
+    left: 25%;
+    border-radius: 100px;
+    background: linear-gradient(to right, rgb(255, 0, 43), #242c5b);
+  }
