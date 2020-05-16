@@ -1,0 +1,193 @@
+@font-face{font-family: Raleway-Light;
+src: url(/sharda/CCL0035/font/Raleway-Light.ttf);}
+  
+@font-face{font-family: Raleway-Bold;
+src: url(/sharda/CCL0035/font/Raleway-Bold.ttf);}
+
+@font-face{font-family: NotoSansUI-Bold;
+src: url(/sharda/CCL0035/font/NotoSansUI-Bold.ttf);}
+
+@font-face{font-family: NotoSansUI-Regular;
+  src: url(/sharda/CCL0035/font/NotoSansUI-Regular.ttf);}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  img{
+    max-width: 100%;
+  }
+  body{
+    font-size: 16px;
+    font-family: 'Overpass', sans-serif;
+    background: lightgrey;
+  }
+  .main-content {
+    width: 100%;
+  }
+  .main-container{
+    max-width: 540px;
+    margin: 0 auto;
+    background: #fff;
+    overflow: hidden;
+  }
+  /* wavy design view */
+  .curve-effect {
+    position: relative;
+  }
+  .top-wavy-design {
+    width: 100%;
+    height: 310px;
+    /* z-index: -1; */
+  }
+  .left-wave-design {
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* z-index: -1; */
+  }
+  .color {
+    height: 20px;
+    width: 100%;
+    background: #f7f31a;
+  }
+  #wave {
+    position: relative;
+    height: 80px;
+    width: 100%;
+    background: rgb(64, 64, 64);
+    /* transform: rotate(45deg); */
+  }
+  #wave:before {
+    /* content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 57%;
+    height: 140px;
+    background-color: white;
+    right: -5px;
+    top: 102px; */
+  }
+  #wave:after {
+    /* content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 50%;
+    height: 130px;
+    background-color: #444;
+    left: 0;
+    top: 78px; */
+  }
+  /* -------- */
+  #inner-wave {
+    position: relative;
+    height: 70px;
+    width: 100%;
+    background: #e2f020;
+    z-index: 1;
+  }
+  #inner-wave:before {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 57%;
+    height: 70px;
+    background-color: #444;
+    right: -5px;
+    top: 36px;
+  }
+  #inner-wave:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 50%;
+    height: 170px;
+    background-color: #e2f020;
+    left: -20px;
+    top: 8px;
+  }
+  
+  /* company details */
+  .company-details {
+    width: 330px;
+    margin: 0 auto;
+  }
+  .person-details {
+    position: relative;
+  }
+  .person-details h1 {
+    font-size: 35px;
+    font-weight: 600;
+    position: absolute;
+    top: 0;
+    left: 22px;
+    font-family: NotoSansUI-Bold;
+  }
+  .person-details p {
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    top: 45px;
+    left: 22px;
+    font-family: NotoSansUI-Regular
+  }
+
+  /* contact information */
+.person-social-info{
+  width: 100%;
+}
+.contact{
+  width: 330px;
+  margin: 0 auto;
+  padding: 70px 10px 0px 10px;
+}
+
+.link{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.icon{
+  width: 20%;
+  position: relative;
+  display: inline-block;
+}
+.icon img{
+  width: 30px;
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.social-info {
+  width: 80%;
+  font-family: NotoSansUI-Regular;
+  color:  #000;
+  font-weight: 400;
+  word-break: break-all;
+  font-size: 18px;
+}
+.address span:nth-child(2) {
+  font-size: 20px;
+}
+.social-info a{
+  font-family: NotoSansUI-Regular;
+  color:  #000;
+  font-weight: 400;
+  display: inline-block;
+  font-size: 18px;
+}
+.phone a{
+  font-family: NotoSansUI-Regular;
+}
