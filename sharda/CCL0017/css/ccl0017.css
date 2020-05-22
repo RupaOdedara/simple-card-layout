@@ -1,0 +1,150 @@
+@font-face {
+  font-family: Dup_____;
+  src: url(/sharda/CCL0017/font/Dup_____.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(/sharda/CCL0017/font/Montserrat-Bold.otf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Overpass', sans-serif;
+  background: #9b9894;
+  color: #fec881;
+}
+
+.main-content {
+  width: 100%;
+}
+
+.main-container {
+  max-width: 540px;
+  margin: 0 auto;
+  background: #fec881;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 0 15px 10px rgba(68, 68, 68, 0.6);
+}
+
+
+/* top line view */
+
+.top-line-design-view {
+  height: 650px;
+  background: #fec881;
+  display: flex;
+  flex-direction: row;
+}
+.left-diagonal-stripes {
+  width: 50%;
+  height: 100%;
+  background: #fec881;
+  /* background-image: repeating-linear-gradient(-45deg, transparent, transparent 15px, rgba(0, 0, 0, 0.5) 15px, rgba(0, 0, 0, .5) 20px); */
+  background-image: repeating-linear-gradient(-45deg, transparent, transparent 25px, rgba(252, 173, 100, 0.5) 25px, rgba(252, 173, 100, 0.5) 32px);
+}
+.right-diagonal-stripes {
+  width: 50%;
+  height: 100%;
+  background: #fec881;
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, rgba(252, 173, 100, 0.5) 25px, rgba(252, 173, 100, 0.5) 32px);
+}
+.bottom-line-design-view {
+  height: 650px;
+  background: #fec881;
+  display: flex;
+  flex-direction: row;
+  transform: rotateX(180deg);
+}
+/* logo-design view */
+.logo-design-view {
+  text-align: center;
+  position: relative;
+}
+.main-logo {
+  width: 65%;
+  margin: 0 auto;
+}
+.A svg {
+  position: absolute;
+  top: -18px;
+  left: 43%;
+  z-index: 1;
+  height: 200px;
+}
+
+/* company details */
+
+.company-details {
+  width: 80%;
+  margin: 0 auto;
+  padding: 80px 0 70px;
+  background: #1b1c1c;
+  position: absolute;
+  left: 10%;
+  top: 17%;
+  z-index: 1;
+}
+#person-details {
+  padding: 50px 0 40px;
+}
+#person-details h1 {
+  font-family: Dup_____;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+  color: #fff;
+}
+
+#company-conatct-details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+  margin: 5px 0;
+  text-align: center;
+  justify-content: center;
+}
+ .link span:nth-child(1) {
+  width: 30%;
+  text-align: right;
+}
+
+.link span:nth-child(2) {
+  /* text-align: left; */
+  /* margin-left: 10px; */
+}
+#company-conatct-details a,
+span {
+  color: #eda76b;
+  font-size: 15px;
+  margin: 7px 0;
+  font-weight: 400;
+  font-family: Montserrat-Bold;
+}
+
+#company-conatct-details span {
+  /* padding: 0 20px; */
+}

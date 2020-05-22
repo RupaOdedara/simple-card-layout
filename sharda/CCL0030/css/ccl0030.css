@@ -35,11 +35,19 @@ body {
   display: block;
   position: absolute;
   border-radius: 100% 50%;
-  width:34%;
+  width: 49%;
   height: 85px;
   background-color: #222;
-  right: -3px;
-  top: 51px;
+  right: -53px;
+  top: 35px;
+  transform: rotate(-8deg);
+
+  /* width: 51%;
+    height: 85px;
+    background-color: #222;
+    right: -66px;
+    top: 35px;
+    transform: rotate(-8deg); */
 }
 #top-wavy-view:after {
   content: "";
@@ -47,11 +55,10 @@ body {
   position: absolute;
   border-radius: 100% 50%;
   width: 72%;
-  height: 84px;
+  height: 150px;
   background-color: #0e4b5a;
   left: -15px;
-  top: 55px;
-
+  top: 8px;
 }
 /* bottom */
 #bottom-wavy-view {
@@ -66,11 +73,12 @@ body {
   display: block;
   position: absolute;
   border-radius: 100% 50%;
-  width:36%;
+  width: 49%;
   height: 85px;
   background-color: #222;
-  right: -3px;
-  top: 51px;
+  right: -53px;
+  top: 35px;
+  transform: rotate(-8deg);
 }
 #bottom-wavy-view:after {
   content: "";
@@ -78,10 +86,10 @@ body {
   position: absolute;
   border-radius: 100% 50%;
   width: 72%;
-  height: 84px;
+  height: 150px;
   background-color: #0e4b5a;
-  left: -16px;
-  top: 45px;
+  left: -15px;
+  top: 8px;
 }
 
 /* logo section */

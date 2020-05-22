@@ -1,0 +1,201 @@
+@font-face {
+  font-family: PlayfairDisplay-Bold;
+  src: url(/sharda/CCL0013/font/PlayfairDisplay-Bold.otf);
+}
+
+@font-face {
+  font-family: LibreBaskerville-Regular;
+  src: url(/sharda/CCL0013/font/LibreBaskerville-Regular.otf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Overpass', sans-serif;
+  background: rgb(241, 158, 80);
+  color: #eda76b;
+}
+
+.main-content {
+  width: 100%;
+}
+
+.main-container {
+  max-width: 540px;
+  margin: 0 auto;
+  background: #2d2d2c;
+  overflow: hidden;
+}
+
+
+/* top line view */
+
+.top-line-design-view {
+  height: 250px;
+  background: #2d2d2c;
+  display: flex;
+  flex-direction: row;
+}
+.left-diagonal-stripes {
+  width: 50%;
+  height: 250px;
+  background-color: #2d2d2c;
+  /* background-image: repeating-linear-gradient(-45deg, transparent, transparent 15px, rgba(0, 0, 0, 0.5) 15px, rgba(0, 0, 0, .5) 20px); */
+  background-image: repeating-linear-gradient(-45deg, transparent, transparent 10px, rgba(0, 0, 0, 0.5) 10px, rgba(0, 0, 0, .5) 14px);
+}
+.right-diagonal-stripes {
+  width: 50%;
+  height: 250px;
+  background-color: #2d2d2c;
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(0, 0, 0, 0.5) 10px, rgba(0, 0, 0, .5) 14px);
+}
+.bottom-line-design-view {
+  height: 250px;
+  background: #2d2d2c;
+  display: flex;
+  flex-direction: row;
+  transform: rotateX(180deg);
+}
+
+
+.gradiant-view .line-one {
+  height: 2px;
+  /* background-image: linear-gradient(to right,#d0a149,#dfb458,#f0c96a,#e3b85a,#e3b85a,#e3b85a,#e3b85a,#cfa048,#c29039,#bc8832,#b07926,#b17a27); */
+  background: linear-gradient(to right,#7c5e47 0%,
+   #e5bd9e 15%,
+   #c68d61 40%,
+    #bc8c68 50%,
+    #eda76b 80%,
+    #87654c 100%);
+  margin-bottom: 5px;
+}
+.gradiant-view .line-two {
+  height: 10px;
+  background: linear-gradient(to right,#7c5e47 0%,
+   #e5bd9e 15%,
+   #c68d61 40%,
+    #bc8c68 50%,
+    #eda76b 80%,
+    #87654c 100%);
+    margin-bottom: 5px;
+}
+/* bottom line view */
+
+.bottom-line-design-view {
+  height: 250px;
+  background: #2d2d2c;
+}
+
+
+/* logo design view */
+
+.company-logo-design-view {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.company-logo-design-view svg {
+  height: 90px;
+  margin: 0 auto;
+}
+
+.company-logo-design-view h1 {
+  font-family: PlayfairDisplay-Bold;
+  font-size: 40px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+/* company details */
+
+.company-details {
+  width: 100%;
+  padding: 80px 0;
+}
+.top-lines {
+  margin: 20px 0;
+}
+.top-lines div {
+  height: 2px;
+  width: 100%;
+  /* background: #eda76b; */
+  background: linear-gradient(to right,#7c5e47 0%,
+   #e5bd9e 15%,
+   #c68d61 40%,
+    #bc8c68 50%,
+    #eda76b 80%,
+    #87654c 100%);
+  margin: 5px 0;
+}
+.person-details {
+  width: 65%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+.person-main-details {
+ 
+}
+.person-details svg {
+  height: 45px;
+  position: absolute;
+  top: -32px;
+  left: 47%;
+  background: #2d2d2c;
+  padding: 5px 5px;
+}
+.person-main-details h2 {
+  font-family: PlayfairDisplay-Bold;
+  font-size: 46px;
+  font-weight: 600;
+  font-style: normal;
+}
+.person-main-details p {
+  position: absolute;
+  bottom: -22px;
+  left: 37%;
+  background: #2d2d2c;
+  padding: 10px 10px;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: LibreBaskerville-Regular;
+}
+
+#company-conatct-details {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  margin: 0 auto;
+  word-wrap: break-word;
+  padding: 35px 0 0;
+  text-align: center;
+}
+
+#company-conatct-details a,
+span {
+  color: #eda76b;
+  font-size: 20px;
+  margin: 7px 0;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: LibreBaskerville-Regular;
+}
+
+#company-conatct-details span {
+  padding: 0 20px;
+}
