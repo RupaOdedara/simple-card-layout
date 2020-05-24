@@ -18,13 +18,13 @@ body {
   max-width: 540px;
   margin: 0 auto;
   background: #fff;
-  text-align: center;
   overflow: hidden;
 }
 
 .complany-details {
   height: 295px;
   background: #000;
+  text-align: center;
 }
 
 .logo img {
@@ -38,26 +38,72 @@ body {
   font-weight: 500;
 }
 
-.social-link {
-  width: 40px;
-  height: 40px;
-  background: #191919;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 40px;
-  /* margin: 0 30px; */
-  margin-right: 30px;
+
+/* social information */
+
+.complany-social-info {
+  background-color: rgb(240, 235, 235);
+  width: 90%;
+  margin: 0 auto;
 }
 
-.social-link img {
-  height: 30px;
-  /* <<<<<<< HEAD */
-  margin-top: 6px;
-  /* ======= */
-  margin-top: 7px;
-  /* >>>>>>> 25de1e4c3b4a333a3922c0ef035d94d13a07aaee */
-  margin-bottom: 4px;
+.person-contact-info-wrap {
+  width: 70%;
+  margin: 0 auto;
+  padding: 50px 0 20px;
 }
+
+.wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  background: rgb(80, 177, 117);
+  border-radius: 50%;
+}
+
+.icon img {
+  width: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.person-detail {
+  width: 90%;
+  position: relative;
+}
+
+.person-detail a {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  font-size: 15px;
+  transform: translate(0, -50%);
+  color: #000;
+  /* color: rgb(87, 161, 190); */
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.phone .person-detail a:nth-child(1) {
+  top: 20%;
+}
+
+.phone .person-detail a:nth-child(2) {
+  top: 70%;
+}
+
+
+/*  */
 
 .clip {
   position: relative;
@@ -132,22 +178,23 @@ body {
   padding: 70px 0 40px;
 }
 
-.developer-name {
+.person-info {
   padding-bottom: 30px;
+  text-align: center;
 }
 
-.developer-name h2 {
+.person-info h2 {
   font-size: 25px;
   color: rgb(80, 177, 117);
   font-weight: 600;
 }
 
-.developer-name span {
+.person-info span {
   color: #333;
   font-weight: 400;
 }
 
-.developer-name p {
+.person-info p {
   font-size: 14px;
   font-weight: 500;
   margin-top: 7px;
@@ -159,12 +206,12 @@ body {
 
 .border-line::after {
   content: '';
-    position: absolute;
-    background-color: rgb(80, 177, 117);
-    width: 85px;
-    height: 2px;
-    top: 30px;
-    left: 40%;
+  position: absolute;
+  background-color: rgb(80, 177, 117);
+  width: 85px;
+  height: 2px;
+  top: 30px;
+  left: 40%;
 }
 
 .social-info {
@@ -193,6 +240,7 @@ body {
   text-align: justify;
   /* width: 50%; */
 }
+
 .info-box p {
   font-size: 14px;
 }

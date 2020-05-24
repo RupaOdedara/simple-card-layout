@@ -3,6 +3,7 @@
 
 /*https://www.ffonts.net/RodinBokutohPro-B.font.download*/
 
+
 /* ------------------------------------ */
 
 * {
@@ -27,6 +28,7 @@ body {
   background: #fff;
   overflow: hidden;
 }
+
 .top {
   background: url('/sharda/CCL0005/image/back.png') no-repeat;
   background-size: cover;
@@ -34,6 +36,7 @@ body {
   width: 100%;
   position: relative;
 }
+
 .overlay {
   background: #000;
   opacity: 0.5;
@@ -42,6 +45,7 @@ body {
   width: 100%;
   /* position: relative; */
 }
+
 .logo {
   position: absolute;
   top: 70px;
@@ -49,51 +53,59 @@ body {
   text-align: center;
   width: 100%;
 }
+
 .logo-image {
- width: 65%;
- margin: 0 auto;
- padding: 20px 50px;
- position: relative;
- text-align: center;
+  width: 65%;
+  margin: 0 auto;
+  padding: 20px 50px;
+  position: relative;
+  text-align: center;
 }
+
 .logo-image img {
   height: 125px;
   width: 125px;
   border-radius: 100px;
   border: 4px solid rgb(238, 204, 54);
-  
 }
+
 #clips li {
- height: 22px;
- width: 22px;
- border: 3px solid rgb(238, 204, 54);
- position: absolute;
- list-style-type: none;
+  height: 22px;
+  width: 22px;
+  border: 3px solid rgb(238, 204, 54);
+  position: absolute;
+  list-style-type: none;
 }
+
 #clips li:nth-child(1) {
   left: 0;
   top: 0;
   border-right: none;
   border-bottom: none;
 }
+
 #clips li:nth-child(2) {
-top: 0;
-right: 0;
-border-left: none;
-border-bottom: none;
+  top: 0;
+  right: 0;
+  border-left: none;
+  border-bottom: none;
 }
+
 #clips li:nth-child(3) {
   bottom: 0;
   left: 0;
   border-right: none;
   border-top: none;
 }
+
 #clips li:nth-child(4) {
   right: 0;
   bottom: 0;
   border-top: none;
   border-left: none;
 }
+
+
 /* developer name box */
 
 .company-details {
@@ -101,14 +113,16 @@ border-bottom: none;
   padding: 20px 0;
   text-align: center;
 }
+
 .company-details h1 {
-  color:  rgb(238, 204, 54);
+  color: rgb(238, 204, 54);
   font-weight: 600;
   font-size: 25px;
   margin-bottom: 5px;
   position: relative;
   font-family: 'Lexend Giga', sans-serif;
 }
+
 .company-details h1::before {
   content: '';
   position: absolute;
@@ -118,6 +132,7 @@ border-bottom: none;
   top: 25px;
   right: 6%;
 }
+
 .company-details h1::after {
   content: '';
   position: absolute;
@@ -127,11 +142,14 @@ border-bottom: none;
   top: 25px;
   left: 6%;
 }
+
 .company-details p {
   color: #fff;
   font-weight: lighter;
   font-size: 14px;
 }
+
+
 /* social box */
 
 .complany-social-info {
@@ -139,44 +157,65 @@ border-bottom: none;
   width: 90%;
   margin: 0 auto;
 }
-.social-link {
-  width: 40px;
-  height: 40px;
-  background: rgb(238, 204, 54);
-  border-radius: 50%;
-  color: rgb(238, 204, 54);
-  text-align: center;
-  line-height: 40px;
-  margin-bottom: 10px;
-  margin-right: 20px;
+
+.person-contact-info-wrap {
+  width: 70%;
+  margin: 0 auto;
+  padding: 50px 0 20px;
 }
 
-.social-link img {
-  height: 24px;
-  /* <<<<<<< HEAD */
-  margin-top: 6px;
-  /* ======= */
-  margin-top: 10px;
-  /* >>>>>>> 25de1e4c3b4a333a3922c0ef035d94d13a07aaee */
-  margin-bottom: 4px;
-}
-.social-info {
-  list-style-type: none;
-  padding: 35px 0 20px;
-  width: 90%;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 0px;
-  
-}
-.social-info li {
+.wrap {
   display: flex;
-  padding: 10px 0;
-  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 20px;
 }
-.info-box {
-  width: 80%;
+
+.icon {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  background: rgb(238, 204, 54);
+  border-radius: 50%;
 }
+
+.icon img {
+  width: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.person-detail {
+  width: 90%;
+  position: relative;
+}
+
+.person-detail a {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  font-size: 15px;
+  transform: translate(0, -50%);
+  color: #000;
+  /* color: rgb(87, 161, 190); */
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.phone .person-detail a:nth-child(1) {
+  top: 20%;
+}
+
+.phone .person-detail a:nth-child(2) {
+  top: 70%;
+}
+
+
+/*  */
+
 .border-line {
   width: 100%;
   display: flex;
@@ -184,6 +223,7 @@ border-bottom: none;
   justify-content: space-around;
   background-color: rgb(240, 235, 235);
 }
+
 .parallelogram-left {
   width: 50%;
   height: 20px;
@@ -191,10 +231,10 @@ border-bottom: none;
   transform: skew(20deg) translateX(-5px);
   margin-right: 8px;
 }
+
 .parallelogram-right {
   width: 50%;
   height: 20px;
   background: rgb(238, 204, 54);
-	transform: skew(20deg) translateX(5px);
+  transform: skew(20deg) translateX(5px);
 }
-
