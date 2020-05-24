@@ -1,37 +1,48 @@
-@font-face{font-family: Montserrat-Bold;
-  src: url(/sharda/CCL0024/font/Montserrat-Bold.ttf);}
-  
-@font-face{font-family: Montserrat-Regular;
-  src: url(/sharda/CCL0024/font/Montserrat-Regular.ttf);}
-    
-@font-face{font-family: Poppins-Regular;
-src: url(/sharda/CCL0024/font/Poppins-Regular.ttf);}
-          
-*{
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(/sharda/CCL0024/font/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(/sharda/CCL0024/font/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(/sharda/CCL0024/font/Poppins-Regular.ttf);
+}
+
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-a{
+a {
   text-decoration: none;
 }
-img{
+
+img {
   max-width: 100%;
 }
-body{
+
+body {
   font-size: 14px;
 }
+
 .main-content {
   width: 100%;
 }
-.main-container{
+
+.main-container {
   max-width: 540px;
   margin: 0 auto;
   background: #10266b;
   overflow: hidden;
 }
-.company-logo-design-view{
+
+.company-logo-design-view {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -39,23 +50,26 @@ body{
   position: relative;
 }
 
-.cross-line{
+.cross-line {
   position: absolute;
   width: 150px;
   height: 10px;
   /* background: repeating-linear-gradient( 45deg, transparent, transparent 10px, #ff4b4c 10px, #ff4b4c 13px ), linear-gradient( to bottom, #10266b, #10266b ); */
-  background: repeating-linear-gradient( 45deg, #ff4b4c, #10266b 5px, #10266b 10px, #10266b 13px );
+  background: repeating-linear-gradient( 45deg, #ff4b4c, #10266b 5px, #10266b 10px, #10266b 13px);
   top: 0;
   left: 7%;
 }
-.company-info{
+
+.company-info {
   width: 100%;
   text-align: center;
   padding-top: 40px;
 }
-.company-info img{
+
+.company-info img {
   width: 60px;
 }
+
 .logo {
   height: 60px;
   width: 30px;
@@ -65,28 +79,28 @@ body{
   border-top-left-radius: 50%;
   border-bottom-right-radius: 50%;
 }
-.zigzag-line-design{
-  
+
+.zigzag-line-design {
   position: absolute;
   top: 1px;
   right: 35px;
 }
 
-.zig-zag-line1{
+.zig-zag-line1 {
   position: relative;
   height: 16px;
   width: 56px;
   z-index: 1;
 }
 
-.zig-zag-line1:before, .zig-zag-line1:after {
+.zig-zag-line1:before,
+.zig-zag-line1:after {
   content: "";
   display: block;
   position: absolute;
   left: 0;
   right: 0;
 }
-
 
 .zig-zag-line1:before {
   height: 12px;
@@ -96,30 +110,31 @@ body{
   background-repeat: repeat-x;
   background-size: 16px 16px;
 }
+
 .zig-zag-line1:after {
-    height: 16px;
-    top: 100%;
-    background: linear-gradient(-135deg, #10266b 7px, transparent 0) 0 8px, linear-gradient(135deg, #10266b 7px, transparent 0) 0 8px;
-    background-position: top left;
-    background-repeat: repeat-x;
-    background-size: 16px 16px;
+  height: 16px;
+  top: 100%;
+  background: linear-gradient(-135deg, #10266b 7px, transparent 0) 0 8px, linear-gradient(135deg, #10266b 7px, transparent 0) 0 8px;
+  background-position: top left;
+  background-repeat: repeat-x;
+  background-size: 16px 16px;
 }
 
-.zig-zag-line2{
+.zig-zag-line2 {
   position: relative;
   height: 16px;
   width: 56px;
   z-index: 1;
 }
 
-.zig-zag-line2:before, .zig-zag-line2:after {
+.zig-zag-line2:before,
+.zig-zag-line2:after {
   content: "";
   display: block;
   position: absolute;
   left: 0;
   right: 0;
 }
-
 
 .zig-zag-line2:before {
   height: 12px;
@@ -129,38 +144,41 @@ body{
   background-repeat: repeat-x;
   background-size: 16px 16px;
 }
+
 .zig-zag-line2:after {
   height: 16px;
-    top: 100%;
-    background: linear-gradient(-135deg, #10266b 7px, transparent 0) 0 8px, linear-gradient(135deg, #10266b 7px, transparent 0) 0 8px;
-    background-position: top left;
-    background-repeat: repeat-x;
-    background-size: 16px 16px;
+  top: 100%;
+  background: linear-gradient(-135deg, #10266b 7px, transparent 0) 0 8px, linear-gradient(135deg, #10266b 7px, transparent 0) 0 8px;
+  background-position: top left;
+  background-repeat: repeat-x;
+  background-size: 16px 16px;
 }
 
-.circle-clip{
+.circle-clip {
   position: relative;
   height: 100px;
   /* overflow: hidden; */
 }
+
 .circle {
   width: 100px;
   height: 100px;
   border-radius: 153px;
-  overflow:hidden;
-  background: repeating-linear-gradient(180deg,#ffffff,#ffffff 1.1%,#10266b 3.1%,#10266b 16.2%);
+  overflow: hidden;
+  background: repeating-linear-gradient(180deg, #ffffff, #ffffff 1.1%, #10266b 3.1%, #10266b 16.2%);
   left: -20%;
-  transform: translate(-50%,-10%) rotate(-40deg);
+  transform: translate(-50%, -10%) rotate(-40deg);
   bottom: -49px;
   position: absolute;
 }
-.plus-clip-design{
+
+.plus-clip-design {
   width: 50px;
   height: 50px;
   margin-left: auto;
 }
 
-.horizontal-line{
+.horizontal-line {
   position: relative;
   background-color: #ffb727;
   width: 50%;
@@ -168,6 +186,7 @@ body{
   right: 51%;
   top: 43.75%;
 }
+
 .vertical-line {
   position: relative;
   background-color: #ffb727;
@@ -177,58 +196,69 @@ body{
   top: 12.5%;
 }
 
+
 /* person information */
-.social-details{
+
+.social-details {
   width: 100%;
 }
-.person-main-details{
+
+.person-main-details {
   text-align: center;
   color: #fff8dc;
   font-family: 'Montserrat', sans-serif;
 }
-.person-main-details h1{
+
+.person-main-details h1 {
   font-family: Montserrat-Bold;
   font-weight: 700;
   font-size: 35px;
   margin-bottom: 7px;
 }
 
-.person-main-details p{
+.person-main-details p {
   font-family: Montserrat-Regular;
   font-weight: 400;
   font-size: 20px;
   color: #fff8dc;
 }
+
+
 /* contact information*/
-.contact-detail{
+
+.contact-detail {
   width: 100%;
 }
-.clip-shape-view-design{
+
+.clip-shape-view-design {
   width: 100%;
   display: flex;
   position: relative;
 }
-.arrow-line-one{
+
+.arrow-line-one {
   width: 25px;
   height: 25px;
   border-right: 4px solid #ff4b4c;
-  border-top:  4px solid #ff4b4c;
+  border-top: 4px solid #ff4b4c;
   transform: rotate(45deg);
   top: 0;
   left: 25px;
   position: absolute;
 }
-.arrow-line-two{
+
+.arrow-line-two {
   width: 25px;
   height: 25px;
   border-right: 4px solid #ff4b4c;
-  border-top:  4px solid #ff4b4c;
+  border-top: 4px solid #ff4b4c;
   transform: rotate(45deg);
   top: 0;
   left: 40px;
   position: absolute;
 }
-.dot-clip-design{
+
+.dot-clip-design {
   background-image: radial-gradient(#ffffff 18%, #10266b 25%);
   background-position: 0 0;
   background-size: 20px 22px;
@@ -238,84 +268,102 @@ body{
   right: 0;
   top: -6px;
 }
+
+
 /* contact information */
-.person-social-info{
+
+.person-social-info {
   width: 100%;
 }
-.contact{
+
+.contact {
   width: 240px;
   margin: 0 auto;
   padding: 70px 10px 0px 10px;
 }
 
-.link{
+.link {
   display: flex;
   flex-direction: row;
   margin-bottom: 15px;
   width: 100%;
 }
-.icon{
+
+.icon {
   width: 20%;
   position: relative;
   display: inline-block;
 }
-.icon img{
+
+.icon img {
   width: 20px;
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
+
 .social-info {
   width: 80%;
   font-family: Poppins-Regular;
-  color:  #fff8dc;
+  color: #fff8dc;
   font-weight: 400;
   word-break: break-all;
   font-size: 14px;
 }
-.social-info a{
+
+.social-info a {
   font-family: Poppins-Regular;
-  color:  #fff8dc;
+  color: #fff8dc;
   font-weight: 400;
   display: inline-block;
   font-size: 14px;
 }
-.phone a{
+
+.phone a {
   font-family: Poppins-Regular;
 }
+
+
 /* bottom half circle shape design section */
 
+
 /* Bottom clip shape 2 */
-.bottom-clip-view{
+
+.bottom-clip-view {
   width: 100%;
   display: flex;
   flex-direction: row;
   position: relative;
 }
-.right-arrow{
+
+.right-arrow {
   width: 30px;
   height: 29px;
-  border-right:  7px solid #36e3ff;
+  border-right: 7px solid #36e3ff;
   border-bottom: 7px solid #36e3ff;
   position: absolute;
   right: 12%;
   top: 0;
 }
+
 .bottom-circle-clip {
   overflow: hidden;
   height: 85px;
 }
+
 .half-circle {
   height: 372px;
   background: #ffb727;
-  border-radius: 50%; 
+  border-radius: 50%;
 }
+
 .dot-style {
   position: relative;
   padding-top: 90px;
 }
-.left-dot-view{
+
+.left-dot-view {
   background-image: radial-gradient(#ffffff 18%, transparent 25%);
   background-position: 0 0;
   background-size: 20px 22px;

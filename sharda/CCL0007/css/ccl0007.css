@@ -3,34 +3,41 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   background: lightgray;
   font-family: 'Lexend Giga', sans-serif;
   width: 100%;
 }
+
 .main-content {
   width: 100%;
 }
+
 .main-container {
   max-width: 540px;
   margin: 0 auto;
   background: #fff;
   padding: 90px 0 40px;
 }
+
 .company-logo-box {
   text-align: center;
 }
+
 .company-logo-box img {
   width: 180px;
   height: 250px;
   border-radius: 10px;
 }
+
 .top {
   width: 180px;
   /* height: 230px; */
   margin: 0 auto;
   position: relative;
 }
+
 .top-left-clip-border {
   position: absolute;
   height: 100px;
@@ -41,6 +48,7 @@ body {
   top: -10px;
   left: -10px;
 }
+
 .bottom-right-clip-border {
   position: absolute;
   height: 100px;
@@ -52,127 +60,147 @@ body {
   right: -10px;
 }
 
+
 /* ------------------------ */
+
 .company-details {
   width: 80%;
   margin: 0 auto;
   padding: 60px 0 50px;
 }
+
 .company-details h1 {
   font-size: 30px;
   font-size: 30px;
   font-weight: 700;
   font-style: normal;
 }
+
 .company-details span {
   font-weight: 500;
   font-size: 30px;
 }
+
 .bottom-line {
   position: relative;
   font-size: 18px;
   color: rgb(80, 177, 117);
 }
+
 .bottom-line::after {
-  content:'';
+  content: '';
   position: absolute;
   background-color: rgb(80, 177, 117);
   width: 25%;
   height: 4px;
   top: 32px;
   /* bottom: -7px; */
-  left:2px;
+  left: 2px;
 }
 
 .social-info {
   list-style-type: none;
 }
+
 .social-info li {
   display: flex;
   margin: 5px 0;
 }
+
 .logo-box {
-  background:rgb(80, 177, 117);
+  background: rgb(80, 177, 117);
   width: 25%;
   text-align: right;
   margin-right: 15px;
 }
+
 .logo-box a {
   text-decoration: none;
- 
 }
+
 .logo-box a i {
   color: #fff;
   padding: 10px;
 }
-.person-info-wrap{
+
+.person-info-wrap {
   width: 100%;
 }
-.person-main-info{
+
+.person-main-info {
   padding: 10px 30px 10px 30px;
 }
-.person-main-info h2{
+
+.person-main-info h2 {
   font-size: 30px;
   text-transform: uppercase;
   font-weight: bold;
 }
-.person-main-info span{
+
+.person-main-info span {
   font-weight: 100;
 }
-.person-main-info p{
+
+.person-main-info p {
   text-transform: capitalize;
   color: #E6E6E6;
   font-size: 14px;
   font-weight: 600;
 }
-.person-contact-info-wrap{
+
+.person-contact-info-wrap {
   width: 100%;
 }
-.person-contact-info{
+
+.person-contact-info {
   padding: 10px 0 10px 0;
 }
 
-.wrap{
+.wrap {
   display: flex;
   flex-direction: row;
   width: 100%;
   margin-bottom: 15px;
 }
-.icon{
+
+.icon {
   width: 110px;
   height: 30px;
   position: relative;
   background: rgb(80, 177, 117);
 }
-.icon img{
+
+.icon img {
   width: 16px;
   position: absolute;
   top: 50%;
   right: 3%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
-.person-detail{
+
+.person-detail {
   width: 90%;
   position: relative;
 }
-.person-detail a{
+
+.person-detail a {
   display: block;
   position: absolute;
   text-decoration: none;
   top: 50%;
   left: 5%;
   font-size: 14px;
-  transform: translate(0,-50%);
+  transform: translate(0, -50%);
   color: #666;
   font-weight: 700;
   line-height: 18px;
-  
 }
 
-.phone .person-detail a:nth-child(1){
+.phone .person-detail a:nth-child(1) {
   top: 30%;
 }
-.phone .person-detail a:nth-child(2){
+
+.phone .person-detail a:nth-child(2) {
   top: 70%;
   line-height: 20px;
 }

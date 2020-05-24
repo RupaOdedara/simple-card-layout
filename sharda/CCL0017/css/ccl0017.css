@@ -51,6 +51,7 @@ body {
   display: flex;
   flex-direction: row;
 }
+
 .left-diagonal-stripes {
   width: 50%;
   height: 100%;
@@ -58,12 +59,14 @@ body {
   /* background-image: repeating-linear-gradient(-45deg, transparent, transparent 15px, rgba(0, 0, 0, 0.5) 15px, rgba(0, 0, 0, .5) 20px); */
   background-image: repeating-linear-gradient(-45deg, transparent, transparent 25px, rgba(252, 173, 100, 0.5) 25px, rgba(252, 173, 100, 0.5) 32px);
 }
+
 .right-diagonal-stripes {
   width: 50%;
   height: 100%;
   background: #fec881;
   background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, rgba(252, 173, 100, 0.5) 25px, rgba(252, 173, 100, 0.5) 32px);
 }
+
 .bottom-line-design-view {
   height: 650px;
   background: #fec881;
@@ -71,15 +74,20 @@ body {
   flex-direction: row;
   transform: rotateX(180deg);
 }
+
+
 /* logo-design view */
+
 .logo-design-view {
   text-align: center;
   position: relative;
 }
+
 .main-logo {
   width: 65%;
   margin: 0 auto;
 }
+
 .A svg {
   position: absolute;
   top: -18px;
@@ -87,6 +95,7 @@ body {
   z-index: 1;
   height: 200px;
 }
+
 
 /* company details */
 
@@ -100,9 +109,11 @@ body {
   top: 17%;
   z-index: 1;
 }
+
 #person-details {
   padding: 50px 0 40px;
 }
+
 #person-details h1 {
   font-family: Dup_____;
   text-align: center;
@@ -127,7 +138,8 @@ body {
   text-align: center;
   justify-content: center;
 }
- .link span:nth-child(1) {
+
+.link span:nth-child(1) {
   width: 30%;
   text-align: right;
 }
@@ -136,6 +148,7 @@ body {
   /* text-align: left; */
   /* margin-left: 10px; */
 }
+
 #company-conatct-details a,
 span {
   color: #eda76b;

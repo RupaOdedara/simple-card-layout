@@ -1,66 +1,81 @@
-@font-face{font-family: Raleway-Light;
-src: url(/sharda/CCL0035/font/Raleway-Light.ttf);}
+@font-face {
+  font-family: Raleway-Light;
+  src: url(/sharda/CCL0035/font/Raleway-Light.ttf);
+}
 
-@font-face{font-family: Raleway-Bold;
-  src: url(/sharda/CCL0035/font/Raleway-Bold.ttf);}
+@font-face {
+  font-family: Raleway-Bold;
+  src: url(/sharda/CCL0035/font/Raleway-Bold.ttf);
+}
 
-  @font-face{font-family: NotoSansUI-Bold;
-  src: url(/sharda/CCL0035/font/NotoSansUI-Bold.ttf);}
+@font-face {
+  font-family: NotoSansUI-Bold;
+  src: url(/sharda/CCL0035/font/NotoSansUI-Bold.ttf);
+}
 
-  @font-face{font-family: NotoSansUI-Regular;
-    src: url(/sharda/CCL0035/font/NotoSansUI-Regular.ttf);}
-*{
+@font-face {
+  font-family: NotoSansUI-Regular;
+  src: url(/sharda/CCL0035/font/NotoSansUI-Regular.ttf);
+}
+
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-a{
+a {
   text-decoration: none;
 }
-img{
+
+img {
   max-width: 100%;
 }
-body{
+
+body {
   font-size: 16px;
   /* font-family: 'Lexend Giga', sans-serif; */
   background: lightgrey;
 }
+
 .main-content {
   width: 100%;
 }
-.main-container{
+
+.main-container {
   max-width: 540px;
   margin: 0 auto;
   background: #fff;
   overflow: hidden;
 }
+
+
 /* logo design view */
+
 .logo-design-view {
   position: relative;
   height: 250px;
 }
+
 .triangle-1 {
   position: absolute;
   top: -50%;
   left: -25%;
   right: -25%;
   height: 250px;
-  width:250px;
+  width: 250px;
   margin: 0 auto;
   /* background: linear-gradient(to left, rgb(79, 183, 224), #d0d1d8 ,#d0d1d8,#d0d1d8, rgb(79, 183, 224)); */
-  background: radial-gradient(ellipse at top, #d0d1d8, transparent),
-            radial-gradient(ellipse at right, rgb(79, 183, 224),rgb(79, 183, 224), transparent),
-            radial-gradient(ellipse at left, #d0d1d8, transparent),
-            radial-gradient(ellipse at bottom, rgb(79, 183, 224),rgb(79, 183, 224),#d0d1d8, transparent);
-  transform: rotate(45deg); 
-
+  background: radial-gradient(ellipse at top, #d0d1d8, transparent), radial-gradient(ellipse at right, rgb(79, 183, 224), rgb(79, 183, 224), transparent), radial-gradient(ellipse at left, #d0d1d8, transparent), radial-gradient(ellipse at bottom, rgb(79, 183, 224), rgb(79, 183, 224), #d0d1d8, transparent);
+  transform: rotate(45deg);
   /* width: 100%;
   height: 200px;
   padding-left:50%;
   padding-top: 10%;
   overflow: hidden;  */
 }
+
+
 /* .triangle-1::after {
     content: "";
     display: block;
@@ -73,17 +88,18 @@ body{
     border-right: 500px solid transparent;
     border-top: 500px solid #4679BD;
 } */
+
 .triangle-2 {
   position: absolute;
   top: -2%;
   left: -27%;
   right: -19%;
   height: 240px;
-  width:240px;
+  width: 240px;
   margin: 0 auto;
   /* background: linear-gradient(to left, #16232B, #d0d1d8 ,#d0d1d8,#d0d1d8, #16232B); */
   background: #16232B;
-  transform: rotate(90deg); 
+  transform: rotate(90deg);
 }
 
 .triangle-3 {
@@ -94,10 +110,11 @@ body{
   height: 190px;
   width: 190px;
   margin: 0 auto;
-  background: linear-gradient(to left,  rgb(109, 188, 228) ,#4A7489,#4A7489, rgb(109, 188, 228));
+  background: linear-gradient(to left, rgb(109, 188, 228), #4A7489, #4A7489, rgb(109, 188, 228));
   /* background: #16232B; */
-  transform: rotate(90deg); 
+  transform: rotate(90deg);
 }
+
 .triangle-4 {
   position: absolute;
   top: 7%;
@@ -108,46 +125,53 @@ body{
   margin: 0 auto;
   /* background: linear-gradient(to left,  #639BB7 ,#4A7489,#4A7489, #639BB7); */
   background: #16232B;
-  transform: rotate(90deg); 
-
+  transform: rotate(90deg);
 }
+
+
 /* logo section */
+
 .logo-design {
   color: #fff;
   font-size: 14px;
   position: relative;
   text-align: center;
 }
+
 #logo-tagline-space {
-position: absolute;
-top: 90px;
-right: -30px;
-left: -50px;
-bottom: 0;
-transform: rotate(45deg);
+  position: absolute;
+  top: 90px;
+  right: -30px;
+  left: -50px;
+  bottom: 0;
+  transform: rotate(45deg);
 }
-#logo-tagline-space h1{
+
+#logo-tagline-space h1 {
   font-size: 16px;
   font-family: NotoSansUI-Regular;
   font-weight: 400;
-  
 }
+
 #logo-tagline-space p {
   font-size: 14px;
   font-family: Raleway-Light;
   color: #fff;
   font-weight: 400;
 }
+
 .person-details {
   margin-top: -40px;
   margin-bottom: 30px;
 }
-.person-details h2{
- text-align: center;
- font-size: 25px;
- font-family: NotoSansUI-Regular;
- margin-bottom: 10px;
+
+.person-details h2 {
+  text-align: center;
+  font-size: 25px;
+  font-family: NotoSansUI-Regular;
+  margin-bottom: 10px;
 }
+
 .person-details P {
   text-align: center;
   font-family: Raleway-Light;
@@ -155,90 +179,108 @@ transform: rotate(45deg);
   font-weight: 500;
 }
 
-/* skewe design view */ 
+
+/* skewe design view */
+
 .skewe-design-view {
   position: relative;
   height: 130px;
-
 }
 
 .left-line-box {
- width: 80%;
- position: absolute;
- top: 0;
- left: -18%;
- transform: rotate(45deg) skew(45deg);
-z-index: 1;
+  width: 80%;
+  position: absolute;
+  top: 0;
+  left: -18%;
+  transform: rotate(45deg) skew(45deg);
+  z-index: 1;
 }
+
 .right-line-box {
- width: 80%;
- position: absolute;
- top: 0;
- right: -18%;
- transform: rotate(-45deg) skew(-45deg);
-z-index: 1;
+  width: 80%;
+  position: absolute;
+  top: 0;
+  right: -18%;
+  transform: rotate(-45deg) skew(-45deg);
+  z-index: 1;
 }
+
 .left-line-1 {
   height: 10px;
-  background: linear-gradient(to right,#d0d1d8, rgb(79, 183, 224));
+  background: linear-gradient(to right, #d0d1d8, rgb(79, 183, 224));
 }
+
 .left-line-2 {
   height: 40px;
-  background: linear-gradient(to right,#2C4551, rgb(79, 183, 224));
+  background: linear-gradient(to right, #2C4551, rgb(79, 183, 224));
 }
+
 .left-line-3 {
   height: 11px;
   background: #16232B;
   /* background: linear-gradient(to right,#d0d1d8, rgb(79, 183, 224)); */
 }
+
 .left-line-4 {
   height: 9px;
   background: linear-gradient(to right, rgb(79, 183, 224), #2C4551);
 }
+
 .left-line-5 {
   height: 11px;
   background: #16232B;
   /* background: linear-gradient(to right,#d0d1d8, rgb(79, 183, 224)); */
 }
+
 .left-line-6 {
   height: 25px;
-  background: linear-gradient(to right, rgb(79, 183, 224),#2C4551, #2C4551);
+  background: linear-gradient(to right, rgb(79, 183, 224), #2C4551, #2C4551);
 }
+
+
 /* ------------------------ */
+
 .right-line-1 {
   height: 10px;
-  background: linear-gradient(to left,#d0d1d8, rgb(79, 183, 224));
+  background: linear-gradient(to left, #d0d1d8, rgb(79, 183, 224));
 }
+
 .right-line-2 {
   height: 40px;
-  background: linear-gradient(to left,#2C4551, rgb(79, 183, 224));
+  background: linear-gradient(to left, #2C4551, rgb(79, 183, 224));
 }
+
 .right-line-3 {
   height: 11px;
   background: #16232B;
   /* background: linear-gradient(to right,#d0d1d8, rgb(79, 183, 224)); */
 }
+
 .right-line-4 {
   height: 9px;
   background: linear-gradient(to left, rgb(79, 183, 224), #2C4551);
 }
+
 .right-line-5 {
   height: 11px;
   background: #16232B;
   /* background: linear-gradient(to right,#d0d1d8, rgb(79, 183, 224)); */
 }
+
 .right-line-6 {
   height: 25px;
-  background: linear-gradient(to left, rgb(79, 183, 224),#2C4551, #2C4551);
+  background: linear-gradient(to left, rgb(79, 183, 224), #2C4551, #2C4551);
 }
-.left-fill-box { 
+
+.left-fill-box {
   height: 132px;
   width: 25%;
   background: #16232B;
   position: absolute;
   left: 0;
 }
-.right-fill-box { 
+
+.right-fill-box {
   height: 132px;
   width: 25%;
   background: #16232B;
@@ -246,45 +288,53 @@ z-index: 1;
   right: 0;
 }
 
+
 /* conatct information */
-.person-social-info{
+
+.person-social-info {
   width: 100%;
   background: #16232B;
 }
-.contact{
+
+.contact {
   width: 280px;
   margin: 0 auto;
   padding: 80px 10px 60px 10px;
 }
 
-.link{
+.link {
   display: flex;
   flex-direction: row;
   margin-bottom: 15px;
   width: 100%;
 }
-.icon{
+
+.icon {
   width: 20%;
   position: relative;
   display: inline-block;
 }
-.icon img{
+
+.icon img {
   width: 20px;
   position: absolute;
   left: 20%;
   top: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
+
 .social-info {
   width: 80%;
   font-family: NotoSansUI-Bold;
-  color:  #fff8dc;
+  color: #fff8dc;
   font-weight: 400;
   word-break: break-all;
   font-size: 14px;
   z-index: 1;
 }
-.social-info a , .location {
+
+.social-info a,
+.location {
   /* font-family: NotoSansUI-Bold; */
   font-family: NotoSansUI-Regular;
   color: #fff;

@@ -1,30 +1,40 @@
+@font-face {
+  font-family: bigsky;
+  src: url(/sharda/CCL0028/Fonts/bigsky.ttf);
+}
 
-@font-face{font-family: bigsky;
-src: url(/sharda/CCL0028/Fonts/bigsky.ttf);}
+@font-face {
+  font-family: Raleway-ExtraBold;
+  src: url(/sharda/CCL0028/Fonts/Raleway-ExtraBold.ttf);
+}
 
-@font-face{font-family: Raleway-ExtraBold;
-src: url(/sharda/CCL0028/Fonts/Raleway-ExtraBold.ttf);}
+@font-face {
+  font-family: MavenPro-Regular;
+  src: url(/sharda/CCL0028/Fonts/MavenPro-Regular.ttf);
+}
 
-@font-face{font-family: MavenPro-Regular;
-src: url(/sharda/CCL0028/Fonts/MavenPro-Regular.ttf);}
-
-@font-face{font-family: OPTICraw-Clarendon;
-src: url(/sharda/CCL0028/Fonts/OPTICraw-Clarendon.otf);}
+@font-face {
+  font-family: OPTICraw-Clarendon;
+  src: url(/sharda/CCL0028/Fonts/OPTICraw-Clarendon.otf);
+}
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   background: lightgrey;
   width: 100%;
   /* font-family: 'Lexend Giga', sans-serif; */
   /* font-family: OPTICraw-Clarendon; */
 }
+
 .content {
   width: 100%;
 }
+
 .main-container {
   max-width: 540px;
   margin: 0 auto;
@@ -32,10 +42,12 @@ body {
   overflow: hidden;
   /* background: rgb(42, 179, 233); */
 }
+
 .company-logo-design {
   background: rgb(42, 179, 233);
   height: 382px;
 }
+
 .company-logo-design h1 {
   color: #fff;
   font-size: 30px;
@@ -43,6 +55,7 @@ body {
   font-style: normal;
   font-family: Raleway-ExtraBold;
 }
+
 .company-logo-design p {
   font-size: 14px;
   font-weight: lighter;
@@ -50,15 +63,17 @@ body {
   color: rgb(241, 246, 250);
   font-family: MavenPro-Regular;
 }
+
 .skewed-line {
   position: relative;
   transform: rotate(14deg) translateY(-150px) translateX(-41px);
-  
 }
+
 .card-design {
   width: 100%;
   /* background: rgb(42, 179, 233); */
 }
+
 .data {
   position: absolute;
   text-align: center;
@@ -66,15 +81,19 @@ body {
   left: 31%;
   transform: rotate(-14deg);
 }
+
 .data img {
   width: 65px;
 }
+
 .data h1 {
   margin: 7px 0 3px;
 }
+
 .company-details {
   margin-top: -45px;
 }
+
 .company-logo-design::before {
   content: "";
   position: absolute;
@@ -82,10 +101,11 @@ body {
   left: -2px;
   right: -16px;
   bottom: -27px;
-  background:  rgb(27, 126, 192);
+  background: rgb(27, 126, 192);
   transform: skew(6deg, 5deg);
   z-index: -1;
 }
+
 .company-logo-design::after {
   content: "";
   position: absolute;
@@ -93,34 +113,40 @@ body {
   left: -2px;
   right: -9px;
   bottom: -12px;
-  background:  #fff;
+  background: #fff;
   transform: skew(2deg, 2deg);
   z-index: -1;
 }
+
 .contact-info {
   display: flex;
   flex-direction: row;
 }
+
 .left-rect1 {
   height: 50px;
   width: 45px;
   background: rgb(51, 163, 238);
 }
+
 .right-rect2 {
   height: 50px;
   width: 17px;
   background: rgb(21, 109, 167);
   margin: 0 13px 0 20px;
 }
+
 .person-info h2 {
   font-weight: 600;
   /* margin-bottom: 5px; */
   line-height: 17px;
   font-family: MavenPro-Regular;
 }
+
 .person-info span {
   color: rgb(68, 171, 240);
 }
+
 .person-info h3 {
   font-size: 15px;
   font-weight: 400;
@@ -129,68 +155,82 @@ body {
   color: rgb(83, 80, 80);
   font-family: MavenPro-Regular;
 }
+
+
 /*  */
-.person-info-wrap{
+
+.person-info-wrap {
   width: 100%;
 }
-.person-contact-info-wrap{
+
+.person-contact-info-wrap {
   width: 100%;
   padding: 35px 0 15px;
 }
-.person-contact-info{
+
+.person-contact-info {
   padding: 10px 30px 10px 0;
 }
-.wrap{
+
+.wrap {
   display: flex;
   flex-direction: row;
   width: 100%;
   margin-bottom: 20px;
 }
-.icon{
+
+.icon {
   width: 30px;
   height: 30px;
   position: relative;
   border: 2px solid #000;
   border-radius: 50%;
 }
-.phone .icon, .address .icon , .facebook .icon ,.linkedin .icon {
+
+.phone .icon,
+.address .icon,
+.facebook .icon,
+.linkedin .icon {
   border: 2px solid rgb(68, 171, 240);
 }
-.icon img{
+
+.icon img {
   width: 16px;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
-.person-detail{
+
+.person-detail {
   width: 90%;
   position: relative;
 }
-.person-detail a{
+
+.person-detail a {
   display: block;
   position: absolute;
   top: 50%;
   right: 5%;
   font-size: 15px;
-  transform: translate(0,-50%);
+  transform: translate(0, -50%);
   color: rgb(83, 80, 80);
   text-decoration: none;
-  font-weight: 300; 
+  font-weight: 300;
   font-size: 17px;
-  font-family: 'Hind Siliguri', sans-serif;  
+  font-family: 'Hind Siliguri', sans-serif;
 }
 
-.phone .person-detail a:nth-child(1){
+.phone .person-detail a:nth-child(1) {
   top: 30%;
 }
-.phone .person-detail a:nth-child(2){
+
+.phone .person-detail a:nth-child(2) {
   top: 85%;
 }
-.address .person-detail a:nth-child(1){
+
+.address .person-detail a:nth-child(1) {
   top: 65%;
   left: 21%;
   right: 0%
-  
 }
-

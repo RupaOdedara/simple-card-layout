@@ -49,6 +49,7 @@ body {
   display: flex;
   flex-direction: row;
 }
+
 .left-diagonal-stripes {
   width: 50%;
   height: 250px;
@@ -56,12 +57,14 @@ body {
   /* background-image: repeating-linear-gradient(-45deg, transparent, transparent 15px, rgba(0, 0, 0, 0.5) 15px, rgba(0, 0, 0, .5) 20px); */
   background-image: repeating-linear-gradient(-45deg, transparent, transparent 10px, rgba(0, 0, 0, 0.5) 10px, rgba(0, 0, 0, .5) 14px);
 }
+
 .right-diagonal-stripes {
   width: 50%;
   height: 250px;
   background-color: #2d2d2c;
   background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(0, 0, 0, 0.5) 10px, rgba(0, 0, 0, .5) 14px);
 }
+
 .bottom-line-design-view {
   height: 250px;
   background: #2d2d2c;
@@ -70,28 +73,20 @@ body {
   transform: rotateX(180deg);
 }
 
-
 .gradiant-view .line-one {
   height: 2px;
   /* background-image: linear-gradient(to right,#d0a149,#dfb458,#f0c96a,#e3b85a,#e3b85a,#e3b85a,#e3b85a,#cfa048,#c29039,#bc8832,#b07926,#b17a27); */
-  background: linear-gradient(to right,#7c5e47 0%,
-   #e5bd9e 15%,
-   #c68d61 40%,
-    #bc8c68 50%,
-    #eda76b 80%,
-    #87654c 100%);
+  background: linear-gradient(to right, #7c5e47 0%, #e5bd9e 15%, #c68d61 40%, #bc8c68 50%, #eda76b 80%, #87654c 100%);
   margin-bottom: 5px;
 }
+
 .gradiant-view .line-two {
   height: 10px;
-  background: linear-gradient(to right,#7c5e47 0%,
-   #e5bd9e 15%,
-   #c68d61 40%,
-    #bc8c68 50%,
-    #eda76b 80%,
-    #87654c 100%);
-    margin-bottom: 5px;
+  background: linear-gradient(to right, #7c5e47 0%, #e5bd9e 15%, #c68d61 40%, #bc8c68 50%, #eda76b 80%, #87654c 100%);
+  margin-bottom: 5px;
 }
+
+
 /* bottom line view */
 
 .bottom-line-design-view {
@@ -126,30 +121,26 @@ body {
   width: 100%;
   padding: 80px 0;
 }
+
 .top-lines {
   margin: 20px 0;
 }
+
 .top-lines div {
   height: 2px;
   width: 100%;
   /* background: #eda76b; */
-  background: linear-gradient(to right,#7c5e47 0%,
-   #e5bd9e 15%,
-   #c68d61 40%,
-    #bc8c68 50%,
-    #eda76b 80%,
-    #87654c 100%);
+  background: linear-gradient(to right, #7c5e47 0%, #e5bd9e 15%, #c68d61 40%, #bc8c68 50%, #eda76b 80%, #87654c 100%);
   margin: 5px 0;
 }
+
 .person-details {
   width: 65%;
   margin: 0 auto;
   text-align: center;
   position: relative;
 }
-.person-main-details {
- 
-}
+
 .person-details svg {
   height: 45px;
   position: absolute;
@@ -158,12 +149,14 @@ body {
   background: #2d2d2c;
   padding: 5px 5px;
 }
+
 .person-main-details h2 {
   font-family: PlayfairDisplay-Bold;
   font-size: 46px;
   font-weight: 600;
   font-style: normal;
 }
+
 .person-main-details p {
   position: absolute;
   bottom: -22px;

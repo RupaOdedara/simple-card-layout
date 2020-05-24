@@ -1,177 +1,216 @@
-@font-face{font-family: Raleway-Light;
-src: url(/sharda/CCL0035/font/Raleway-Light.ttf);}
-  
-@font-face{font-family: Raleway-Bold;
-src: url(/sharda/CCL0035/font/Raleway-Bold.ttf);}
+@font-face {
+  font-family: Raleway-Light;
+  src: url(/sharda/CCL0035/font/Raleway-Light.ttf);
+}
 
-@font-face{font-family: NotoSansUI-Bold;
-src: url(/sharda/CCL0035/font/NotoSansUI-Bold.ttf);}
+@font-face {
+  font-family: Raleway-Bold;
+  src: url(/sharda/CCL0035/font/Raleway-Bold.ttf);
+}
 
-@font-face{font-family: NotoSansUI-Regular;
-  src: url(/sharda/CCL0035/font/NotoSansUI-Regular.ttf);}
+@font-face {
+  font-family: NotoSansUI-Bold;
+  src: url(/sharda/CCL0035/font/NotoSansUI-Bold.ttf);
+}
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  
-  a{
-    text-decoration: none;
-  }
-  img{
-    max-width: 100%;
-  }
-  body{
-    font-size: 16px;
-    font-family: 'Overpass', sans-serif;
-    background: lightgrey;
-  }
-  .main-content {
-    width: 100%;
-  }
-  .main-container{
-    max-width: 540px;
-    margin: 0 auto;
-    background: #fff;
-    overflow: hidden;
-  }
-   /* wavy design view */
-  .top-wave-design-view {
-    position: relative;
-    height: 350px;
-  }
-  .top-line img {
-    position: absolute;
-    top: 0;
-    width: 100%;
-  }
-  .bottom-wave-design-view {
-    position: relative;
-    height: 300px;
-  }
-  .bottom-line img:nth-child(1)
-   {
-     position: absolute;
-    bottom: 0;
-    width: 100%;
-   }
-  .bottom-line img:nth-child(2) {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-  }
-  .curve-effect {
-    position: relative;
-  }
-  .top-wavy-design {
-    width: 100%;
-    height: 310px;
-  }
-  .left-wave-design {
-    width: 50%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-  
-  }
-  /* logo design view */
-  #compmay-logo-design-view {
-    position: relative;
-  }
-  #compmay-logo-design-view h1 {
-    font-size: 30px;
-    font-weight: 700;
-    position: absolute;
-    top: 55px;
-    left: 25%;
-    font-family: NotoSansUI-Bold;
-  }
-  .logo {
-    height: 50px;
-    width: 50px;
-    margin: 0 auto;
-    border: 7px solid #444;
-  }
+@font-face {
+  font-family: NotoSansUI-Regular;
+  src: url(/sharda/CCL0035/font/NotoSansUI-Regular.ttf);
+}
 
-  /* company details */
-  .company-details {
-    /* width: 330px; */
-    height: 275px;
-    margin: 0 auto;
-  }
-  .person-details {
-    position: relative;
-  }
-  .person-details h1 {
-    font-size: 40px;
-    font-weight: 600;
-    position: absolute;
-    top: 80px;
-    left: 25%;
-    font-family: NotoSansUI-Bold;
-  }
-  .person-details p {
-    font-size: 25px;
-    font-weight: 400;
-    position: absolute;
-    top: 135px;
-    left: 25%;
-    font-family: NotoSansUI-Regular
-  }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
-  /* contact information */
-.person-social-info{
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Overpass', sans-serif;
+  background: lightgrey;
+}
+
+.main-content {
   width: 100%;
 }
-.contact{
+
+.main-container {
+  max-width: 540px;
+  margin: 0 auto;
+  background: #fff;
+  overflow: hidden;
+}
+
+
+/* wavy design view */
+
+.top-wave-design-view {
+  position: relative;
+  height: 350px;
+}
+
+.top-line img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.bottom-wave-design-view {
+  position: relative;
+  height: 300px;
+}
+
+.bottom-line img:nth-child(1) {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.bottom-line img:nth-child(2) {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.curve-effect {
+  position: relative;
+}
+
+.top-wavy-design {
+  width: 100%;
+  height: 310px;
+}
+
+.left-wave-design {
+  width: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+
+/* logo design view */
+
+#compmay-logo-design-view {
+  position: relative;
+}
+
+#compmay-logo-design-view h1 {
+  font-size: 30px;
+  font-weight: 700;
+  position: absolute;
+  top: 55px;
+  left: 25%;
+  font-family: NotoSansUI-Bold;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  margin: 0 auto;
+  border: 7px solid #444;
+}
+
+
+/* company details */
+
+.company-details {
+  /* width: 330px; */
+  height: 275px;
+  margin: 0 auto;
+}
+
+.person-details {
+  position: relative;
+}
+
+.person-details h1 {
+  font-size: 40px;
+  font-weight: 600;
+  position: absolute;
+  top: 80px;
+  left: 25%;
+  font-family: NotoSansUI-Bold;
+}
+
+.person-details p {
+  font-size: 25px;
+  font-weight: 400;
+  position: absolute;
+  top: 135px;
+  left: 25%;
+  font-family: NotoSansUI-Regular
+}
+
+
+/* contact information */
+
+.person-social-info {
+  width: 100%;
+}
+
+.contact {
   width: 330px;
   margin: 0 auto;
   padding: 0px 10px 0px 10px;
 }
 
-.link{
+.link {
   display: flex;
   flex-direction: row;
   margin-bottom: 20px;
   width: 100%;
 }
-.icon{
+
+.icon {
   width: 20%;
   position: relative;
   display: inline-block;
 }
-.icon img{
+
+.icon img {
   width: 40px;
   position: absolute;
   left: 40%;
   top: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
+
 .social-info {
   width: 80%;
   font-family: NotoSansUI-Regular;
-  color:  #000;
+  color: #000;
   font-weight: 400;
   word-break: break-all;
   font-size: 24px;
 }
+
 .address span:nth-child(2) {
   font-size: 24px;
 }
-.social-info a{
+
+.social-info a {
   font-family: NotoSansUI-Regular;
-  color:  #000;
+  color: #000;
   font-weight: 400;
   display: inline-block;
   font-size: 24px;
 }
-.phone a{
+
+.phone a {
   font-family: NotoSansUI-Regular;
 }
 
-/* animation section.. */
+/* animation section.. 
 
 .st0, .annim {
   stroke-dasharray: 100;
@@ -187,3 +226,4 @@ src: url(/sharda/CCL0035/font/NotoSansUI-Bold.ttf);}
     stroke-dashoffset: 1000;
   }
 }
+*/
