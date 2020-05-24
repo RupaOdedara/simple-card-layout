@@ -1,0 +1,9 @@
+Fonts used in this design:
+
+Font: Dubiel
+Author: David Rakowski
+Url: http://www.fontsquirrel.com/fonts/dubielplain
+
+Font: Montserrat
+Author: Julieta Ulanovsky
+Url: http://www.fontsquirrel.com/fonts/montserrat
