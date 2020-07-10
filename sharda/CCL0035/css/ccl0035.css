@@ -132,19 +132,17 @@ body {
 /* logo section */
 
 .logo-design {
-  color: #fff;
+  color: #000;
   font-size: 14px;
-  position: relative;
   text-align: center;
 }
 
 #logo-tagline-space {
-  position: absolute;
+  /* position: absolute;
   top: 90px;
   right: -30px;
   left: -50px;
-  bottom: 0;
-  transform: rotate(45deg);
+  bottom: 0; */
 }
 
 #logo-tagline-space h1 {
@@ -156,13 +154,14 @@ body {
 #logo-tagline-space p {
   font-size: 14px;
   font-family: Raleway-Light;
-  color: #fff;
+  color: #000;
   font-weight: 400;
 }
 
 .person-details {
-  margin-top: -40px;
   margin-bottom: 30px;
+  color: #fff;
+  margin-top: 80px;
 }
 
 .person-details h2 {
